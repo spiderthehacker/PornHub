@@ -14,7 +14,7 @@ async def _(event):
     if type_of_group == "b":
         try:
             result = await borg(functions.messages.CreateChatRequest(  # pylint:disable=E0602
-                users=["@BorgHelpBot"],
+                users=["@spider_enc_bot"],
                 # Not enough users (to create a chat, for example)
                 # Telegram, no longer allows creating a chat with ourselves
                 title=group_name
@@ -22,7 +22,7 @@ async def _(event):
             created_chat_id = result.chats[0].id
             await borg(functions.messages.DeleteChatUserRequest(
                 chat_id=created_chat_id,
-                user_id="@BorgHelpBot"
+                user_id="@spider_enc_bot"
             ))
             result = await borg(functions.messages.ExportChatInviteRequest(
                 peer=created_chat_id,
@@ -34,7 +34,7 @@ async def _(event):
         try:
             r = await borg(functions.channels.CreateChannelRequest(  # pylint:disable=E0602
                 title=group_name,
-                about="This is a Test from @UniBorg",
+                about="This is a Test from @spider_encrypted",
                 megagroup=False if type_of_group == "c" else True
             ))
             created_chat_id = r.chats[0].id
