@@ -1,4 +1,4 @@
-"""COMMAND : .info, .dc, .nigga"""
+"""COMMAND : .info, .dc, .help"""
 
 import sys
 from telethon import events, functions, __version__
