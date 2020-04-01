@@ -2,7 +2,7 @@
 Format .bombntc [phone number]"""
 import asyncio
 import requests
-from userbot.utils import admin_cmd
+from uniborg.util import admin_cmd
 @borg.on(admin_cmd("ntc (.*)"))
 async def _(event):
     num=0
