@@ -2,7 +2,7 @@
 
 Available Commands:
 
-.jio"""
+.network"""
 
 from telethon import events
 
@@ -26,13 +26,13 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "jio":
+    if input_str == "network":
 
         await event.edit(input_str)
 
         animation_chars = [
         
-            "`Connecting To Jio Network...`",
+            "`Connecting To Ncell Network...`",
             "`█ ▇ ▆ ▅ ▄ ▂ ▁`",
             "`▒ ▇ ▆ ▅ ▄ ▂ ▁`",
             "`▒ ▒ ▆ ▅ ▄ ▂ ▁`",
@@ -50,7 +50,7 @@ async def _(event):
             "`▁ ▂ ▄ ▅ ▆ ▒ ▒`",
             "`▁ ▂ ▄ ▅ ▆ ▇ ▒`",
             "`▁ ▂ ▄ ▅ ▆ ▇ █`",
-            "**Jio Network Boosted....**"
+            "**Ncell Network Boosted....**"
 
  ]
 
