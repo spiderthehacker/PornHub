@@ -1,6 +1,6 @@
 {
   "name": "PornHub",
-  "description": "Only For Legends..... By : @r4v4n4",
+  "description": "Only For Legends..... By : @spider_encrypted",
   "logo": "https://telegra.ph/file/18cea3a9a7d9b3261dc1a.jpg",
   "keywords": [
     "sex",
@@ -119,7 +119,7 @@
       "required": false
     },
     "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
-      "description": "Number of rows of modules that needs to be displayed in the .helpme command",
+      "description": "Number of rows of modules that needs to be displayed in the .info command",
       "required": false
     },
     "COMMAND_HAND_LER": {
@@ -141,7 +141,7 @@
     },
     "TZ": {
       "description": "set your default time zone for time related features to work correctly. Value should match the string here: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Kathmandu",
       "required": false
     },
     "VERY_STREAM_LOGIN": {
