@@ -46,8 +46,6 @@ from gtts import gTTS
 
 from emoji import get_emoji_regexp
 
-from uniborg import CMD_HELP, BOTLOG, BOTLOG_CHATID, YOUTUBE_API_KEY, CHROME_DRIVER, GOOGLE_CHROME_BIN
-
 from uniborg.util import register
 
 from uniborg.util import admin_cmd
