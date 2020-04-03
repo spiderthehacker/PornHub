@@ -2,7 +2,7 @@
 Format .bomb [phone number] [times]"""
 import asyncio
 import requests
-from uniborgt.util import admin_cmd
+from uniborg.util import admin_cmd
 @borg.on(admin_cmd("bomb (.*)"))
 async def _(event):
     num=0
