@@ -46,7 +46,7 @@ from gtts import gTTS
 
 from emoji import get_emoji_regexp
 
-from uniborgt.util import admin_cmd
+from uniborg.util import admin_cmd
 
 import pybase64
 
